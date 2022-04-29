@@ -33,6 +33,8 @@ public void user_should_enter_usernsme_and_password() {
 public void user_click_with_Login_button() {
 	driver.findElement(By.name("login")).click();
 	
+	
+	
 }
 
 @Then("user should verify Facebook home pag edisplayed or not")
